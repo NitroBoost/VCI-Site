@@ -62,6 +62,7 @@ img
     justify-content: center;
     text-align: center;
     float: right;
+    cursor: pointer;
 }
 .button:hover 
 {
