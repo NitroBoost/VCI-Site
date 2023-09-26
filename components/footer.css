@@ -1,0 +1,16 @@
+footer 
+{
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    background-color: #303030;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.8vmin;
+    color: #9e9e9e;
+}
+
+footer a 
+{
+    color: #dfdfdf;
+    text-decoration: none;
+}

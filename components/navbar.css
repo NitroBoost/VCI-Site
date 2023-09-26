@@ -1,0 +1,30 @@
+nav 
+{
+    width: 100vw;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    position: fixed;
+    flex-wrap: wrap;
+    font-size: 1.8vmin;
+    z-index: 99;
+    margin-top: -1.1vh;
+}
+
+nav p 
+{
+    align-self: center;
+    cursor: pointer;
+}
+nav p:nth-child(1) 
+{
+    margin-left: 10vmin;
+}
+nav p:nth-child(3) 
+{
+    margin-right: 10vmin;
+}

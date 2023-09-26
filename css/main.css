@@ -1,0 +1,230 @@
+
+main 
+{
+    padding-top: 30vh;
+    z-index: -2;
+    background-size: 40px 40px;
+}
+
+.heading 
+{
+    z-index: -2;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 30vh;
+}
+
+.heading h1 
+{
+    font-size: 10vmin;
+    z-index: -2;
+}
+.heading h1:nth-child(2) 
+{
+    color: #6b6b6b; 
+    margin-top: -10vmin;
+}
+.heading h4 
+{
+    margin-top: -5vmin;
+    font-size: 2.5vmin;
+    color: #414141;
+}
+.heading h6
+{
+    margin-top: 10vmin;
+    font-size: 2vmin;
+    color: #1d1d1d;
+    animation: scrollNotification 10s infinite;
+}
+
+@keyframes scrollNotification {
+    from 
+    {
+        color: #131313;
+    }
+    50% 
+    {
+        color: #474747;
+    }
+    to
+    {
+        color: #131313;
+    }
+}
+
+
+/* about section */
+
+.about-contents 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vmin;
+    padding-bottom: 10vmin;
+}
+
+.about-section
+{
+    width: 40vw;
+    font-size: 2vmin;
+    text-align: center;
+    align-self: center;
+}
+
+
+.about-section h2
+{
+    text-decoration: underline;
+    text-decoration-thickness: 0.35vmin;
+}
+
+
+/* about section */
+
+
+/* up and coming section */
+
+.upandcoming-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5vmin;
+    padding-left: 5vw;
+    background-color: transparent;
+}
+
+.section-up 
+{
+    width: 25vw;
+    height: 28vh;
+    padding-bottom: 1vmin;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    color: #8b8b8b;
+    display: flex;
+}
+
+.section-up p 
+{
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    font-size: 2vmin;
+}
+
+.section-up img 
+{
+    object-fit: cover;
+    width: 30vw;
+    height: 33vh;
+    filter: grayscale(100%) saturate(100%);
+    opacity: 0.5;
+    transition: 0.4s;
+    transition-property: transform;
+    transform: scale(1);
+}
+.section-up img:hover
+{
+    transition: 0.4s;
+    transition-property: transform;
+    transform: scale(1.1);
+}
+
+/* up and coming section */
+
+
+/* morals section */
+
+.moral-container 
+{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8vmin;
+    flex-wrap: wrap;
+    padding-bottom: 5vmin;
+}
+
+.moral 
+{
+    width: 20%;
+    text-align: center;
+    align-self: center;
+}
+
+.moral h2 
+{
+    color: white;
+    font-size: 2.4vmin;
+    text-decoration: underline;
+    text-decoration-thickness: 0.3vmin;
+}
+
+.moral p
+{
+    color: #757575;
+    font-size: 1.8vmin;
+}
+
+/* morals section */
+
+
+/* get in touch section */
+
+.intouch-container 
+{
+    width: 100vw;
+    padding-top: 2vmin;
+    padding-bottom: 8vmin;
+    background-color: #0e0e0e;
+}
+
+.intouch-content 
+{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5vmin;
+}
+
+.left 
+{
+    width: 40%;
+    align-self: center;
+}
+.left h3 
+{
+    font-size: 2.5vmin;
+}
+.left p
+{
+    font-size: 1.8vmin;
+}
+
+.right
+{
+    width: 40%;
+    text-align: right;
+    align-self: center;
+}
+.right h3 
+{
+    font-size: 3.2vmin;
+}
+.right p
+{
+    font-size: 1.8vmin;
+}
+/* get in touch section */

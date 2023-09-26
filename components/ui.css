@@ -1,0 +1,30 @@
+UI 
+{
+    position: fixed;
+    z-index: 999999;
+    pointer-events: none;
+    background: none !important;
+}
+
+.mouse-follower 
+{
+    position: fixed;
+    pointer-events: none;
+    background: none !important;
+}
+
+.inner-mouse
+{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 0.5vmin solid white;
+    user-select: none;
+    -moz-user-select: none;
+    margin-top: -3.5vh;
+    margin-left: -1.7vw;
+    align-self: center;
+    pointer-events: none;
+    background: none !important;
+}
